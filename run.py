@@ -11,9 +11,6 @@ from flask import Flask, jsonify
 # Создаем экземпляр Flask
 app = Flask(__name__)
 
-print(search_by_actors('Rose McIver', 'Ben Lamb'))
-# print(search_by_many_parameters('Movie', 2015, 'Dramas'))
-
 
 @app.route('/')
 def index_page():
